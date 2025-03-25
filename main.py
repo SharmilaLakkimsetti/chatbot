@@ -6,7 +6,7 @@ from langchain_community.chat_message_histories import SQLChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 import os
 
-API_KEY = os.getenv("AIzaSyBXGBGH5NDY8L_jVmq2zb4i8xYEV2qN-48")
+API_KEY = os.getenv("AIzaSyDtHSemRhBGp0Oygf8Eu5I9-PWGiLoxUtE")
 
 template = ChatPromptTemplate(
     messages=[
